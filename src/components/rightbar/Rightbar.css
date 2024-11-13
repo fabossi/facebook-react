@@ -2,6 +2,11 @@
     flex: 3.5;
 }
 
+#link {
+    text-decoration: none;
+    color: black;
+}
+
 .rightbarWrapper {
     margin: 20px 20px 0 0;
 }
@@ -67,6 +72,22 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+
+.rightbarFollowButton {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #1872f2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .rightbarFollowing {
